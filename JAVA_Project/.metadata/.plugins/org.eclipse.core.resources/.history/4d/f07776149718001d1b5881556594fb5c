@@ -1,0 +1,24 @@
+package first_Java_project;
+
+import java.awt.desktop.PrintFilesEvent;
+import java.io.*;
+import java.math.BigInteger;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.security.DrbgParameters.NextBytes;
+import java.util.*;
+import javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction;
+import javax.xml.xpath.XPathVariableResolver;
+
+public class Main {
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int f = a%8;
+		if(f==0) System.out.println(f+2);
+		else if(f==7) System.out.println(f-4);
+		else if(f==6) System.out.println(f-2);
+		else System.out.println(f);
+	}
+}

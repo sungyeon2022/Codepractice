@@ -1,0 +1,16 @@
+package first_Java_project;
+
+import java.util.Scanner;
+
+public class HellowWorld {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		var a = sc.nextInt();
+		if(a==4) {
+			System.out.println("Hellow World!");	
+		}
+		else {
+			System.out.println("Good Bye~");
+		}
+	}
+}

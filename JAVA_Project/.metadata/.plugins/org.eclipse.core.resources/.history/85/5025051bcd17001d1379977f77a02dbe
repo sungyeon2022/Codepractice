@@ -1,0 +1,12 @@
+package first_Java_project;
+
+import java.util.Scanner;
+
+public class HellowWorld {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		var a = sc.nextInt();
+		var b = sc.nextInt();
+		
+}
+//결국 자바는 입력시 Scanner 객체를 호출하고 입력받아함

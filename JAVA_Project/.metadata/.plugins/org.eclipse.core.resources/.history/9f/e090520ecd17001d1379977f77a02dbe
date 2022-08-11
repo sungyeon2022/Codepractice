@@ -1,0 +1,18 @@
+package first_Java_project;
+
+import java.util.Scanner;
+
+public class HellowWorld {
+	Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		var a = sc.nextInt();
+		if(a==4) {
+			System.out.println("Hellow World!");	
+		}
+		else {
+			System.out.println("Good Bye~");
+		}
+	}
+}
+//결국 자바는 입력시 Scanner 객체를 호출하고 입력받아함

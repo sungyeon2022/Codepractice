@@ -1,0 +1,23 @@
+package first_Java_project;
+
+import java.io.*;
+import java.math.BigInteger;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.security.DrbgParameters.NextBytes;
+import java.util.*;
+
+import javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction;
+import javax.xml.xpath.XPathVariableResolver;
+
+import java.io.IOException;
+
+public class Main {
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		if(a%5>0) System.out.println(a%5+1);
+		else System.out.println(a%5);
+	}
+}

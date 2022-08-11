@@ -1,0 +1,13 @@
+package first_Java_project;
+
+public class HellowWorld {
+	public static void main(String[] args) {
+		int a=4;
+		if(a==4) {
+			System.out.println("Hellow World!");	
+		}
+		else {
+			System.out.println("Good Bye");
+		}
+	}
+}
