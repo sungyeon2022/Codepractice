@@ -2,42 +2,41 @@
 #include <stdlib.h>
 #include <string.h>	
 
-void swap(int a, int b) {
-	int temp = 0;
-	temp = a;
-	a = b;
-	b = temp;
-	printf("%d", temp);
-}
+static int temp;
+static int count = 0;
 
 int part(int a[], int left, int right) {
-	int mid = (left + right) / 2;
-	swap(a[left],a[mid]);
-	int i = left;
-	int j = right;
 	int piv = a[left];
-	int temp = 0;
+	int i = left + 1, j = right;
 	while (i < j) {
-		while (piv < a[j]||j>0) {
+		while (piv < a[i]) {
+			i++;
+			printf("i:%d \n", i);
+		}
+		while (piv >= a[j]) {
+			j--;
+			printf("j: %d \n", j);
+		}
+		if (i <= j) {
+			swap(&a[i], &a[j]);
+			for (int i = 0; i < 10; i++) {
+				printf("%d,", a[i]);
+			}
+			i++;
 			j--;
 		}
-		while (i < j && piv >= a[i]) {
-			i++;
-		}
-		swap(a[i],a[j]);
-		for (int i = 0; i < 10; i++) {
-			printf("%d,", a[i]);
-		}
-		printf("\n");
 	}
 	a[left] = a[i];
 	a[i] = piv;
 	return i;
 }
 
-void myqsrot(int a[], int left, int right) {
+void myqsort(int a[], int left, int right) {
+	count++;
+	printf("%d 회전 \n",count);
 	if (left >= right) return;
 	int q = part(a, left, right);
-	myqsrot(a, left, q - 1); //분할
-	myqsrot(a, q + 1, right);
+	printf("piv:%d \n", q);
+	myqsort(a, left, q - 1); //분할
+	myqsort(a, q + 1, right);
 }

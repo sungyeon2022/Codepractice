@@ -141,6 +141,7 @@
     <ClCompile Include="LSW.c" />
     <ClCompile Include="PN.c" />
     <ClCompile Include="practice.c" />
+    <ClCompile Include="qqqqqqqqq.c" />
     <ClCompile Include="qsrot.c" />
     <ClCompile Include="REM.c" />
     <ClCompile Include="stack.c" />
