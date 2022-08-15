@@ -1,3 +1,3 @@
 ﻿  test.c
-C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\test.c(8,2): warning C4013: 'ssemqsort'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\test.c(11,3): warning C4013: 'upqsort'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   C_leetCode.vcxproj -> C:\Users\1\Desktop\Codepractice\C\C_leetCode\x64\Debug\C_leetCode.exe

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="addtwonum.c" />
     <ClCompile Include="buble.c" />
+    <ClCompile Include="exqsort.c" />
     <ClCompile Include="gualho.c" />
     <ClCompile Include="Day11_Ex01.c" />
     <ClCompile Include="Day14.c" />
@@ -141,8 +142,8 @@
     <ClCompile Include="LSW.c" />
     <ClCompile Include="PN.c" />
     <ClCompile Include="practice.c" />
-    <ClCompile Include="qqqqqqqqq.c" />
-    <ClCompile Include="qsrot.c" />
+    <ClCompile Include="ssemqsort.c" />
+    <ClCompile Include="myqsrot.c" />
     <ClCompile Include="REM.c" />
     <ClCompile Include="stack.c" />
     <ClCompile Include="test.c" />

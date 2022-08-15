@@ -75,10 +75,13 @@
     <ClCompile Include="buble.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="qsrot.c">
+    <ClCompile Include="myqsrot.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="qqqqqqqqq.c">
+    <ClCompile Include="ssemqsort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="exqsort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
