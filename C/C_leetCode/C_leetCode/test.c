@@ -3,12 +3,7 @@
 #include <string.h>	
 
 int main() {
-	int n;
-	int* li = (int*)calloc(10000, sizeof(int));
-	scanf_s("%d", &n);
-	for (int i = 0; i < n; i++) {
-		scanf_s("%d", &li[i]);
-		upqsort(li, 0, i);
-		printf("%d \n", li[i / 2]);
-	}
+	int a[] = { 44, 1, 0, 0, 31, 25 };
+	int b[] = { 31, 10, 45, 1, 6, 19 };
+	lotto(a, 6, b, 6);
 }

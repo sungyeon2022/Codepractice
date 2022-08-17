@@ -138,6 +138,7 @@
     <ClCompile Include="insrot.c" />
     <ClCompile Include="intToroman.c" />
     <ClCompile Include="jiha.c" />
+    <ClCompile Include="lotto.c" />
     <ClCompile Include="LPS.c" />
     <ClCompile Include="LSW.c" />
     <ClCompile Include="PN.c" />
@@ -150,6 +151,7 @@
     <ClCompile Include="ZigZag.c" />
     <ClCompile Include="Ex05.c" />
     <ClCompile Include="ravirun.c" />
+    <ClCompile Include="smsq.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

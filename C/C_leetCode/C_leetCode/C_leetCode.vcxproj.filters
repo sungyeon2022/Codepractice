@@ -84,5 +84,11 @@
     <ClCompile Include="exqsort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="smsq.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lotto.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

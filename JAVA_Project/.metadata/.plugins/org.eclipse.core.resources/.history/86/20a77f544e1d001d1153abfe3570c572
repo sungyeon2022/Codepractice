@@ -1,0 +1,14 @@
+package first_Java_project;
+
+import java.util.*;
+
+public class Solution {
+	public int[] solution(int []arr) {
+		int[] answer = {};
+		System.out.printf("안녕자바");
+		return answer;
+	}
+	public static void main(String[] args) {
+		System.out.printf("안녕자바");
+	}
+}

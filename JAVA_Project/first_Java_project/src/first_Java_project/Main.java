@@ -22,11 +22,7 @@ public class Main {
 		a = new float[count];
 		for(int i = 0;i<count;i++) {
 			a[i] = sc.nextFloat();
-			a[i] = dF.format(a[i]*80/100);
 			
-		}
-		for(int i = 0 ;i<count;i++) {
-			System.out.println("$%.2f \n",a[i]);
 		}
 	}
 }
