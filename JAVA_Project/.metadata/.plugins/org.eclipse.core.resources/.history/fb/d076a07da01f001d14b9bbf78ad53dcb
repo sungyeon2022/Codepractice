@@ -1,0 +1,17 @@
+package first_Java_project;
+
+import java.util.*;
+
+public class Solution {
+	public String solution(String new_id) {
+		ArrayList<String> res = new ArrayList<String>();
+		String answer = "";
+		res.add(new_id);
+		for(int i =0;i<new_id.length();i++) {
+			
+		}
+        return answer;
+	}
+	public static void main(String[] args) {
+	}
+}

@@ -1,2 +1,23 @@
-﻿  lotto.c
-  C_leetCode.vcxproj -> C:\Users\1\Desktop\Codepractice\C\C_leetCode\x64\Debug\C_leetCode.exe
+﻿  eqsumq.c
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(23,13): warning C4098: 'insert': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(28,30): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(29,30): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(39,29): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(40,29): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,27): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,20): warning C4024: 'insert': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,29): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,52): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,45): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(42,54): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,27): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,20): warning C4024: 'insert': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,29): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,52): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,45): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(46,54): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  grammussol1.c
+  코드를 생성하고 있습니다...
+idreport.obj : error LNK2005: solution이(가) eqsumq.obj에 이미 정의되어 있습니다.
+stack.obj : error LNK2005: pop이(가) eqsumq.obj에 이미 정의되어 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\x64\Debug\C_leetCode.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

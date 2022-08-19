@@ -3,7 +3,7 @@
 #include <string.h>	
 
 int main() {
-	int a[] = { 44, 1, 0, 0, 31, 25 };
-	int b[] = { 31, 10, 45, 1, 6, 19 };
-	lotto(a, 6, b, 6);
+	char* a[] = {"AN", "CF", "MJ", "RT", "NA"};
+	int b[] = { 5, 3, 2, 7, 5 };
+	sungyouhyung(a, 5, b, 5);
 }

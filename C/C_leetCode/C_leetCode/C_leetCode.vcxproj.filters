@@ -90,5 +90,11 @@
     <ClCompile Include="lotto.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="grammussol1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="eqsumq.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

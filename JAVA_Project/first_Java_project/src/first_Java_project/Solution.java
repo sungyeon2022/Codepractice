@@ -1,20 +1,32 @@
 package first_Java_project;
 
-import java.nio.channels.NonWritableChannelException;
 import java.util.*;
 
 public class Solution {
-	public int[] solution(int []arr) {
-		ArrayList<Integer> answer = new ArrayList<Integer>();
-		int val = -1;
-		for(int i=0; i<arr.length; i++) {
-            if(arr[i] != val) {
-                answer.add(arr[i]);
-                val = arr[i];
+	public String solution(String new_id) {
+		String answer = new_id.toLowerCase();
+		answer = answer.replaceAll("[^-_.a-z0-9]", "");
+		answer = answer.replaceAll("[.]{2,}", ".");
+		answer = answer.replaceAll("^[.]|[.]$", "");
+		if (answer.equals("")) {
+            answer += "a";
+        }
+
+        if (answer.length() >= 16) {
+            answer = answer.substring(0, 15);
+            answer = answer.replaceAll("[.]$","");
+        }
+
+        if (answer.length() <= 2) {
+            while (answer.length() < 3) {
+                answer += answer.charAt(answer.length()-1);
             }
         }
-        return answer.stream().mapToInt(i->i).toArray();
-	}
+        return answer;
+    }
 	public static void main(String[] args) {
+		Solution sol = new Solution();
+		String a = "sdfSDFSDFSDFdfasdf";
+		System.out.println(sol.solution(a));
 	}
 }

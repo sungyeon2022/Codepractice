@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="javax.xml.xpath.XPathVariableResolver"/>
     <fullyQualifiedTypeName name="java.lang.invoke.VarHandle"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
     <fullyQualifiedTypeName name="java.lang.invoke.ClassSpecializer.SpeciesData"/>
     <fullyQualifiedTypeName name="javax.management.ValueExp"/>
@@ -27,12 +26,15 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.awt.desktop.PrintFilesEvent"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
-    <fullyQualifiedTypeName name="first_Java_project.Solution"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.nio.channels.NonWritableChannelException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="first_Java_project.Solution"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,25 @@
+package first_Java_project;
+
+import java.util.*;
+
+public class Solution {
+	public String solution(String new_id) {
+		String answer = "";
+		int ch;
+		for(int i =0;i<new_id.length();i++) {
+			ch = (int)new_id.charAt(i);
+			if((ch>=65)&&(ch<=90)) {
+				answer += (char)(ch+32);
+			}
+			else {
+				answer += (char)ch;
+			}
+		}
+        return answer;
+	}
+	public static void main(String[] args) {
+		Solution sol = new Solution();
+		String a = "sdfsadfasdf";
+		sol.solution(a);
+	}
+}
