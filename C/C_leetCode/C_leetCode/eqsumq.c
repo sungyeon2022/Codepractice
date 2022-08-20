@@ -12,35 +12,45 @@ long sum(int a[], int alen) {
 
 // queue1_len은 배열 queue1의 길이입니다.
 // queue2_len은 배열 queue2의 길이입니다.
-int solution(int queue1[], size_t queue1_len, int queue2[], size_t queue2_len) {
-    long q1sum = sum(queue1, queue1_len);
-    long q2sum = sum(queue2, queue2_len);
-    int* q1 = (int*)malloc(15000);
-    int* q2 = (int*)malloc(15000);
-    int q1len = 0;
-    int q2len = 0;
-    int res;
+int eqsumq(int queue1[], size_t queue1_len, int queue2[], size_t queue2_len) {
+    int* q = (int*)malloc(1200000);
     int answer = 0;
-    if ((q1sum + q2sum) % 2 == 1) {
-        return -1;
+    long res;
+    int temp;
+    for (int i = 0; i < queue1_len + queue2_len ; i++) {
+        if (i < 6) {
+            q[i] = queue1[i];
+        }
+        else {
+            q[i] = queue2[i - 6];
+        }
     }
+    int qs = 0;
+    int qend = queue1_len + queue2_len;
+    int qlend = qend / 2;
+    long qlsum = sum(queue1, queue1_len);
+    long qsum = qlsum + sum(queue2, queue2_len);
+    if (qsum % 2 == 1) return -1;
     else {
-        res = (q1sum + q2sum) / 2;
+        res = qsum / 2;
     }
     while (1) {
-        if (q1sum > q2sum) {
+        if (qlsum > res) {
+            temp = q[qs];
+            qlsum -= temp;
+            qs++;
+            q[qend] = temp;
+            qend++;
             answer++;
         }
-        else if (q1sum < q2sum) {
+        else if (qlsum < res) {
+            qlsum += q[qlend];
+            qlend++;
             answer++;
         }
-        else if (q1sum == q2sum) {
-            break;
-        }
-        if (q1len == -1 || q2len == -1) {
-            return -1;
-        }
-        
+        else break;
+        if (answer > queue1_len + queue2_len + 2) return -1;
     }
+    
     return answer;
 }

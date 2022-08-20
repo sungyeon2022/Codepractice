@@ -3,7 +3,7 @@
 #include <string.h>	
 
 int main() {
-	char* a[] = {"AN", "CF", "MJ", "RT", "NA"};
-	int b[] = { 5, 3, 2, 7, 5 };
-	sungyouhyung(a, 5, b, 5);
+	int a[] = { 1,1,1,1,1,1,};
+	int b[] = { 5, 3, 2, 7, 5,2 };
+	printf("%d",eqsumq(a,6,b,6));
 }
