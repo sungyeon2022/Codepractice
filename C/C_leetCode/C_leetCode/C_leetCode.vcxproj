@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="addtwonum.c" />
     <ClCompile Include="buble.c" />
+    <ClCompile Include="deungsan.c" />
     <ClCompile Include="eqsumq.c" />
     <ClCompile Include="exqsort.c" />
     <ClCompile Include="grammussol1.c" />

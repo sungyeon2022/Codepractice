@@ -1,2 +1,8 @@
 ﻿  eqsumq.c
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(31,30): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(32,37): warning C4267: '함수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\eqsumq.c(29,27): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  test.c
+C:\Users\1\Desktop\Codepractice\C\C_leetCode\C_leetCode\test.c(8,14): warning C4013: 'eqsumq'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
   C_leetCode.vcxproj -> C:\Users\1\Desktop\Codepractice\C\C_leetCode\x64\Debug\C_leetCode.exe

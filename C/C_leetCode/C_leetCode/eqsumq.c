@@ -13,16 +13,16 @@ long sum(int a[], int alen) {
 // queue1_len은 배열 queue1의 길이입니다.
 // queue2_len은 배열 queue2의 길이입니다.
 int eqsumq(int queue1[], size_t queue1_len, int queue2[], size_t queue2_len) {
-    int* q = (int*)malloc(1200000);
+    int* q = (int*)malloc((queue1_len+queue2_len)*sizeof(int));
     int answer = 0;
     long res;
     int temp;
     for (int i = 0; i < queue1_len + queue2_len ; i++) {
-        if (i < 6) {
+        if (i < queue1_len) {
             q[i] = queue1[i];
         }
         else {
-            q[i] = queue2[i - 6];
+            q[i] = queue2[i - queue1_len];
         }
     }
     int qs = 0;
@@ -35,6 +35,7 @@ int eqsumq(int queue1[], size_t queue1_len, int queue2[], size_t queue2_len) {
         res = qsum / 2;
     }
     while (1) {
+        if (answer > queue1_len + queue2_len + 2) return -1;
         if (qlsum > res) {
             temp = q[qs];
             qlsum -= temp;
@@ -49,8 +50,6 @@ int eqsumq(int queue1[], size_t queue1_len, int queue2[], size_t queue2_len) {
             answer++;
         }
         else break;
-        if (answer > queue1_len + queue2_len + 2) return -1;
     }
-    
     return answer;
 }
