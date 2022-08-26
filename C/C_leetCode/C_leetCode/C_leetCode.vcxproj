@@ -150,6 +150,7 @@
     <ClCompile Include="myqsrot.c" />
     <ClCompile Include="REM.c" />
     <ClCompile Include="stack.c" />
+    <ClCompile Include="stringtoint.c" />
     <ClCompile Include="test.c" />
     <ClCompile Include="ZigZag.c" />
     <ClCompile Include="Ex05.c" />
