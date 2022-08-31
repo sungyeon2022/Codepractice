@@ -146,6 +146,7 @@
     <ClCompile Include="LSW.c" />
     <ClCompile Include="PN.c" />
     <ClCompile Include="practice.c" />
+    <ClCompile Include="saycenter.c" />
     <ClCompile Include="ssemqsort.c" />
     <ClCompile Include="myqsrot.c" />
     <ClCompile Include="REM.c" />

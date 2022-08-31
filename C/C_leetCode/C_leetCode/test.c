@@ -3,6 +3,5 @@
 #include <string.h>	
 
 int main() {
-	const char* a = "123456";
-	sttoint(a);
+	saycen();
 }
