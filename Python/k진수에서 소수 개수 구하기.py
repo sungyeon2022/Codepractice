@@ -3,7 +3,7 @@ def solution(n, k):
     while n > 0:
         n, mod = divmod(n, k)
         jin += str(mod)
-    jin = jin[::-1]
+    jin = jin[::-1] #뒤집는 처리과정
     chk = ''
     answer = 0
     for i in jin:
@@ -27,7 +27,7 @@ def solution(n, k):
 def sol(n, k):
     word = ""
     while n:  # 숫자를 k진법으로 변환
-        word = str(n % k) + word
+        word = str(n % k) + word #저장 하면서 역순 저장
         n = n // k
 
     word = word.split("0")  # 변환된 숫자를 0을 기준으로 나눈다.
