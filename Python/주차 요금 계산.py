@@ -1,5 +1,18 @@
+import math
+
+def daTomin(a):
+    h,m = map(int,a.split(":"))
+    return 60*h+m
+
 def solution(fees, records):
     answer = []
+    info = {}
+    for i in records:
+        tm, num, his = i.split()
+
+
+
+
     return answer
 
 fee = [180, 5000, 10, 600]

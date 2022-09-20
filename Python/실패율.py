@@ -1,15 +1,17 @@
 def solution(N, stages):
-    answer = []
-    dj = len(stages)
     nan = {}
+    stge_len = len(stages)
     for i in range(1,N+1):
-        nan[i]=stages.count(i)/dj
-        dj-=stages.count(i)
-    chk = sorted(nan.items(), key=lambda item: item[1],reverse=True)
-    res=list()
-    for i in chk:
-        res.append(i[0])
-    print(res)
+        if stge_len != 0: #if 구문으로 예외 처리 필수
+            sc = stages.count(i)
+            nan[i] = sc/stge_len
+            stge_len -= sc
+        else:
+            nan[i]=0
+    answer = []
+    answer = sorted(nan.keys(), key=lambda key: nan[key],reverse=True)
+    print(answer)
+    return answer
 
 a=5
 n=[2, 1, 2, 6, 2, 4, 3, 3]
